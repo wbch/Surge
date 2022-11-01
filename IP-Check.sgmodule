@@ -1,0 +1,9 @@
+#!name=IP-Check
+#!desc=Where is my IP
+#!system=ios
+
+[Panel]
+IP-Check = script-name=IP-Check, title="IP detail", content="update", style=info, update-interval=1
+
+[Script]
+IP-Check = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/wbch/Surge/main/IP-Check.js
