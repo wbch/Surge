@@ -19,7 +19,6 @@ $httpClient.get(url, function(error, response, data){
   $done(body);
 });
 
-
 function getFlagEmoji(countryCode) {
     const codePoints = countryCode
       .toUpperCase()
