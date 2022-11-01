@@ -13,7 +13,7 @@ $httpClient.get(url, function(error, response, data){
     let city = jsonData.city
     let isp = jsonData.isp
   body = {
-    title: "${emoji}${country} - ${city}",
+    title: ` ${emoji}${country} - ${city}`,
     content: ` ${ip}\n ${isp}`,
     icon: "globe.asia.australia.fill"
   }
