@@ -1,0 +1,9 @@
+#!name=IP-Check
+#!desc=查看节点IP信息
+#!system=ios
+
+[Panel]
+IP-Check = script-name=IP-Check, title="节点详情", content="请刷新", style=info, update-interval=1
+
+[Script]
+IP-Check = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/wbch/Surge/IP-Check/IP-Check.js
