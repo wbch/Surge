@@ -13,9 +13,9 @@ $httpClient.get(url, function(error, response, data){
     let city = jsonData.city
     let isp = jsonData.isp
   body = {
-    title: `${emoji}${city}, ${country}`,
+    title: `${city}, ${country}`,
     content: `${ip}\n${isp}`,
-    icon: "globe.asia.australia.fill"
+    icon: `${emoji}`
   }
   $done(body);
 });
