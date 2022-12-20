@@ -15,7 +15,7 @@ $httpClient.get(url, function(error, response, data){
   body = {
     title: `${city}, ${country}${emoji}`,
     content: `${ip}\n${isp}`,
-    icon: `${emoji}`
+    icon: 
   }
   $done(body);
 });
