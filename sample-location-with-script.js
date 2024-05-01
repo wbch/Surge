@@ -4,7 +4,7 @@ if ($response.statusCode != 200) {
 
 var body = $response.body;
 var obj = JSON.parse(body);
-var title = getFlagEmoji(obj['country']) + ' ' + obj['country'];
+var title = getFlagEmoji(obj['countryCode']) + ' ' + obj['country'];
 var subtitle = obj['city'] + ' ' + obj['isp'];
 var ip = obj['query'];
 var description = obj['country'] + '\n' + obj['city'] + '\n' + obj['isp'] + '\n' + obj['ipType'];
